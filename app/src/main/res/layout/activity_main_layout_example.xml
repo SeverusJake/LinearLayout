@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAD3F6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<!--    //th1 : Tao 1 the co dong va mo - Co the con-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width=""-->
+    <!--        android:layout_height="">-->
+
+    <!--    </TextView>-->
+
+    <!--    th2 : Tao 1 the co dong va mo - Khong co the con-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity=""
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/determination_sans"
+        android:gravity="center"
+        android:text="UNDERTALE"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#f20"
+        android:fontFamily="monospace"
+        android:text="View 1"
+        android:textColor="#EADB50"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity=""
+        android:layout_weight="1"
+        android:background="#FFE500"
+        android:fontFamily="@font/determination_sans"
+        android:gravity="center"
+        android:text="DETERMINATION"
+        android:textColor="#0055FF"
+        android:textSize="30sp" />
+
+</LinearLayout>
